@@ -2,9 +2,7 @@
 
 ### Discover your cognitive fingerprint through play
 
-[**Project showcase & demo on Kanz**](https://ka.nz/ai/shathaalgobaishi)
-
-NeuroLens is a bilingual React and TypeScript prototype that turns short interactive activities into a visual **Cognitive Fingerprint**. It combines gameplay, a rule-based scoring engine, animated data visualizations, and a plain-language report in Arabic or English.
+NeuroLens explores **game-based early awareness of cognitive, learning, and emotional difficulties**. Designed for child and adult profiles, this bilingual React and TypeScript prototype turns interactive activities into a visual **Cognitive Fingerprint**, domain scores, and a plain-language report in Arabic or English.
 
 The current version includes **15 activities**, organized into child and adult game menus with shared activities, **10 domain scores**, and **7 experimental condition-related indicators**. It is a software demonstration, not a clinically validated screening or diagnostic tool.
 
@@ -13,6 +11,20 @@ The current version includes **15 activities**, organized into child and adult g
 ## The Idea
 
 Make cognitive exploration more approachable through play. Instead of presenting results as isolated numbers, NeuroLens combines short activities with a visual fingerprint and an accessible narrative. The experience is designed around a simple flow: **Play → Explore → Understand**. Its technical focus is interactive UX, modular scoring, bilingual accessibility, and optional AI-assisted report writing.
+
+## What Does It Explore?
+
+The prototype aims to make potential difficulties in attention, impulse control, memory, language, numeracy, social interaction, and emotional wellbeing easier to explore through play. Its report includes experimental indicators labelled for:
+
+- **Attention-deficit/hyperactivity disorder (ADHD)**
+- **Autism spectrum disorder (ASD)**
+- **Dyslexia** — reading-related difficulties
+- **Dyscalculia** — number and arithmetic-related difficulties
+- **Anxiety**
+- **Depression**
+- **Mild cognitive impairment (MCI)**
+
+These labels describe the prototype's intended areas of exploration. Its game scores and fixed rules have not been clinically validated to detect or rule out these conditions. The report supports self-awareness rather than diagnosis.
 
 ## Development Highlights
 
@@ -25,10 +37,6 @@ Make cognitive exploration more approachable through play. Instead of presenting
 - Added consent-based experimental microphone and webcam activities using browser APIs.
 - Persisted profiles, results, and session history locally with Zustand and browser localStorage.
 - Included a sample-data demo mode, browser printing, and a short text-sharing option.
-
-## Showcase
-
-Featured in the **Kanz AI Showroom** in July 2026. The linked project page includes a demonstration and displays a **Gold** AI Judge Rating. This repository documents the supplied Vite/React version; its implemented stack is listed below.
 
 ## Application Flow
 
